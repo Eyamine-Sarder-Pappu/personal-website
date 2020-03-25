@@ -1,0 +1,118 @@
+.top-banner{
+  height: 50%;
+  width: 100%;
+  display:flex;
+  background-image: url(personal-website/header-bg.png);
+  background-position: center;
+  background-size: cover;
+  margin: 100px;
+}
+.top-banner h1{
+  font-size: 50px;
+  font-weight: 700;
+ color: green;
+}
+.top-banner img{
+  width: 100%;
+}
+.halh-width{
+  width: 50%;
+  height: 500px;
+  margin: 100px;
+}
+
+.link-button{
+  background-color: rgb(230, 76, 16);
+}
+
+.down-banner{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  background-image: url(personal-website/latest-work-bg.png);
+  background-position: bottom;
+  background-size: cover;
+  background-image: repeating-radial-gradient(none);
+  margin: 100px;
+}
+.down-banner img{
+  width: 100%;
+}
+.details{
+  height: 500px;
+  width: 40%;
+  align-items: center;
+  margin:100px;
+}
+.down-banner h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: orange;
+}
+.resume-button{
+  text-decoration: none;
+  background-color: rgb(253, 82, 15);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-weight: 700;
+}
+.portfolio h1{
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+.portfolio img{
+  height: 50%;
+  width: 30%;
+  float: left;
+  margin: 20px;
+  box-shadow: 10px 10px 50px gray;
+  border-radius: 10px;
+}
+
+.clients h1{
+   text-align: center;
+   font-size: 45px;
+   font-weight: 700;
+   line-height: 1.5;
+
+}
+.clients h2{
+    text-align: center;
+    font-size: 40px
+}
+.clients h3{
+  text-align: center;
+  color: darkgray;
+}
+.text{
+  width: 40%;
+  margin: 0px 0px 0px 500px;
+  font-size: 30px;
+}
+.clients h5{
+  font-size: 20px;
+}
+.clients h4{
+  font-size: 30px;
+}
+.clients h6{
+  text-align: center;
+  font-size: 20px;
+}
+
+ .clients{
+   background-image:url(personal-website/footer-bg.png) ;
+   background-position: bottom;
+   background-size: cover;
+ }
+.contact{
+  text-align: center;
+  background-color: rgb(144, 233, 12);
+  width: 40%;
+  height: 150px;
+  margin: 0px 0px 0px 500px;
+  border-radius: 10px;
+}
